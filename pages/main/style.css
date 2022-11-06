@@ -21,29 +21,31 @@
 /* HEADER */
 
 .header {
+    /* outline: 8px dashed red; */
     background-color: black;
+    width: 1600px;
     height: 780px;
-    outline: 8px dashed red;
+    margin-left: 7%;
 }
 
 .header_wrapper {
+    /* outline: 4px dashed blue; */
     display: flex;
     flex-wrap: wrap;
     margin: auto;
     height: 80px;
-    width: 1160px;
-    outline: 4px dashed blue;
 }
 /* LOGO */
 
 .logo{
     /* outline: 2px dashed orange;  */
+    margin-left: 220px;
 }
 
- .logo_link {
+.logo_link {
     text-decoration: none;
 } 
-    
+
 .restangle {
     height: 52px;
     width: 82px;
@@ -89,6 +91,10 @@
     padding-right: 58px;    
 }
 
+.header_item a:hover, .header_item a:active{
+    font-size: 150%;
+}
+
 .header_link_about {
     padding-left: 63px;
     text-decoration: none;
@@ -103,10 +109,11 @@
 /* DESIGNER */
 
 .designer {
+    /* outline: 2px dashed rebeccapurple; */
     display: flex;
     align-items: center;
     margin-left: auto;
-    /* outline: 2px dashed rebeccapurple; */
+    margin-right: 187px;
 }
 
 .header_link_design {
@@ -115,4 +122,49 @@
     line-height: 140%;
     color: white;
     text-decoration: none;
+}
+/* WATCH_ANIMAL */
+.watch_animal {
+    /* outline: 3px dashed fuchsia; */
+    height: 700px;
+    background: url(/assets/images/png/Giant\ Panda.png);
+    background-size: cover;
+}
+
+.ellipse {
+    /* outline: 2px dashed olivedrab; */
+    display: flex;
+    position: relative;
+    margin-left: 807px;
+    margin-right: 328px;
+    padding-top: 12px;
+}
+
+.ellipse h1 {
+    /* outline: 3px dashed gold; */
+    position: absolute;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 106.496px;
+    line-height: 75%;
+    margin-top: 74px;
+    margin-left: 73px;    
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+.ellipse span{
+    color:#FFEE2E;
+}
+
+.button_watch_online {
+    /* outline: 3px dashed blue; */
+    margin-top: 60px;
+    margin-left: 983px;
+    position:absolute;
+}
+
+.button_watch_online:hover {
+    padding: 2px;
 }
