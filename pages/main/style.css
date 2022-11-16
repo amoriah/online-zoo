@@ -251,7 +251,7 @@
 /* PETS */
 
 .pets {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 1130px;
 }
 
@@ -300,6 +300,8 @@
 }
 
 .signature_text p {
+    width: 200px;
+    background-color: rgb(231, 240, 214);
     font-size: 15px;
     font-weight: 300;
 }
@@ -314,23 +316,43 @@
 }
 
 .palm {
-  margin-left: -590px;
-  margin-top: -200px;
+  /* margin-left: -390px; */
+  margin-top: -202px;
 }
 
 .btn {
+    height: 20px;
     margin-top: 80px;
-    margin-left: 370px;
+    margin-left: 120px;
 }
 
 .strelitzia {
-    margin-top: -20px;
-    margin-left: 300px;
+    margin-left: 170px;
+    margin-top: -17px;
 }
 
-/* .btn_left {
-    padding-top: -100px;
+.btn:hover{
+    padding: 3px;
 }
-.btn_right {
 
-} */
+.btn_right_left{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: -720px;
+}
+
+.btn_left:hover {
+    padding: 3px;
+}
+
+.btn_right:hover {
+    padding: 3px;
+}
+
+/* transition-property: all;//указываем свойство к которому будет применятся переход
+transition-property: transform; 
+transition-duration: 3s;//указываем время перехода скорость
+transition-timing-function: ease-in-out;//установить скорость ерехода по продолжительности
+*/
