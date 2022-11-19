@@ -257,8 +257,8 @@
 
 .pets_container {
     /* border: 5px solid blue; */
-    height: 872;
-    width: 1158;
+    height: 872px;
+    width: 1158px;
     padding-left: 220px;
     padding-right: 220px;
     display: grid;
