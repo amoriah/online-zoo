@@ -251,7 +251,8 @@
 /* PETS */
 
 .pets {
-    /* border: 1px solid black; */
+    /* border: 1px solid black; */    
+    position: relative;
     height: 1130px;
 }
 
@@ -282,6 +283,7 @@
 
 .animal_signature {
     display: flex;
+    /* transform: rotate(90deg); */
 }
 
 .signature_text {
@@ -336,10 +338,12 @@
 }
 
 .btn_right_left{
+    /* position: absolute; */
     display: flex;
     justify-content: space-between;
     margin-left: 80px;
     margin-right: 80px;
+    /* padding-top: 200px; */
     margin-top: -720px;
 }
 
