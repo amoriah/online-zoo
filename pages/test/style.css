@@ -1,0 +1,59 @@
+/* .square {
+	transition-property: background-color;
+	transition-duration: 3s;
+	margin: 20%;
+	border-radius: 100px;
+	width: 200px;
+	height: 200px;
+	background-color: rgb(39, 164, 122);
+
+} */
+/*
+transition-property свойство которое будет анимированно
+transition-duration продолжительность перехода из одного состояния в другое
+transition-timing-function - врменная функция перехода
+transition-delay - задержка начала перехода
+*/
+/*--------------------------------------------------------------------------*/
+body {
+	padding: 100px;
+	--size: 40px;
+	--distance: 40px
+}
+
+.wrapper, 
+.ball {
+	width: var(--size);
+	height: var(--size);	
+}
+
+.wrapper {
+	position: relative;
+}
+
+.ball {
+	position: absolute;
+	border-radius: var(--size);
+
+}
+
+.ball_1 {
+	background-color: red;
+	transform: translate(0, -40px);
+	animation: 4s linear 0s infinite move;
+}
+
+.ball_2 {
+	background-color: green;
+	transform: translate(var(--distance), 0);
+}
+
+.ball_3 {
+	background-color: blue;
+	transform: translate(0, var(--distance));
+}
+
+.ball_4 {
+	background-color: pink;
+	transform: translate(-40px, 0);
+}
